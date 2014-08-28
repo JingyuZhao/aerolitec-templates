@@ -53,6 +53,12 @@
 
 //#pragma mark -> Initialized class
 
+// + (void)initialize {
+//   if (self == [<#ClassName#> class]) {
+//     <#statements#>
+//   }
+// }
+
 //#pragma mark -> Private properties
 
 //@synthesize <#type#> *<#private property#>;
@@ -75,11 +81,11 @@
 // }
 
 // - (NSString *)<#private method#>() {
-//   NSString * lRet = 0;
+//   NSString * lRet = nil;
 //   return lRet;
 // }
 
-#pragma mark -> Init/deallocate methods
+#pragma mark -> Init/Deallocate methods
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
 	self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -113,14 +119,14 @@
 
 // #pragma mark -> Public methods
 
- // #pragma mark -> Navigation
- 
- // // In a storyboard-based application, you will often want to do a little preparation before navigation
- // - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
- // {
- // // Get the new view controller using [segue destinationViewController].
- // // Pass the selected object to the new view controller.
- // }
+// #pragma mark -> Navigation
+
+// // In a storyboard-based application, you will often want to do a little preparation before navigation
+// - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+// {
+// // Get the new view controller using [segue destinationViewController].
+// // Pass the selected object to the new view controller.
+// }
 
 // #pragma mark -> Actions Implementation
 
