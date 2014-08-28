@@ -51,6 +51,18 @@
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
+//#pragma mark -> Private properties
+
+//@synthesize <#type#> *<#private property#>;
+//@synthesize <#type#> *<#private property#>;
+//@synthesize <#type#> *<#private property#>;
+
+//#pragma mark -> Public properties
+
+//@synthesize <#type#> *<#public property#>;
+//@synthesize <#type#> *<#public property#>;
+//@synthesize <#type#> *<#public property#>;
+
 //#pragma mark -> Initialized class
 
 //+ (void)initialize {
@@ -58,12 +70,6 @@
 //    <#statements#>
 //  }
 //}
-
-//#pragma mark -> Private properties
-
-//@synthesize <#type#> *<#private property#>;
-//@synthesize <#type#> *<#private property#>;
-//@synthesize <#type#> *<#private property#>;
 
 //#pragma mark -> Private methods
 
@@ -84,6 +90,10 @@
 //  NSString * lRet = nil;
 //  return lRet;
 //}
+
+//#pragma mark -> Public class methods
+
+//#pragma mark -> Public methods
 
 #pragma mark -> Init/Deallocate methods
 
@@ -108,16 +118,6 @@
 	[super didReceiveMemoryWarning];
 	// Dispose of any resources that can be recreated.
 }
-
-//#pragma mark -> Public properties
-
-//@synthesize <#type#> *<#public property#>;
-//@synthesize <#type#> *<#public property#>;
-//@synthesize <#type#> *<#public property#>;
-
-//#pragma mark -> Public class methods
-
-//#pragma mark -> Public methods
 
 //#pragma mark -> Navigation
 
