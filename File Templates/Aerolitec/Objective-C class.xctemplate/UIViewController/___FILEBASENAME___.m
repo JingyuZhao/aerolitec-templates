@@ -14,31 +14,31 @@
 
 #pragma mark -> Class Extension
 @interface ___FILEBASENAMEASIDENTIFIER___ () {
-// Member variables
+//#pragma mark -> Member variables
 //<#type#> *<#member name#>;
 //<#type#>  <#member name#>;
 }
 
-// Private properties
-
+//#pragma mark -> Private properties
+//
 //@property (nonatomic,strong) <#type#> *<#private property#>;
 //@property (nonatomic,assign) <#type#>  <#private property#>;
 
-// Private methods
-
+//#pragma mark -> Private methods
+//
 //- (void)<#private method#>();
 //- (NSInteger)<#private method#>();
 //- (CGFloat)<#private method#>();
 //- (NSString *)<#private method#>();
 
-// Interface Builder properties
-
+//#pragma mark -> Interface Builder properties
+//
 //@property (weak, nonatomic) IBOutlet <#type#> *<#IB property#>;
 //@property (weak, nonatomic) IBOutlet <#type#> *<#IB property#>;
 //@property (weak, nonatomic) IBOutlet <#type#> *<#IB property#>;
 
-// Interface Builder actions
-
+//#pragma mark -> Interface Builder actions
+//
 //- (IBAction)<#IB Action method#>:(id)sender;
 //- (IBAction)<#IB Action method#>:(id)sender;
 //- (IBAction)<#IB Action method#>:(id)sender;
