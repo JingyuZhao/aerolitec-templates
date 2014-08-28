@@ -10,13 +10,13 @@ ___IMPORTHEADER_cocoaTouchSubclass___
 
 @interface ___FILEBASENAMEASIDENTIFIER___ : ___VARIABLE_cocoaTouchSubclass___
 
-// Public properties
-
+//#pragma mark -> Public properties
+//
 //@property (nonatomic,strong) <#type#> *<#public property#>;
 //@property (nonatomic,assign) <#type#>  <#public property#>;
 
-// Public methods
-
+//#pragma mark -> Public methods
+//
 //- (void)<#public method#>();
 //- (NSInteger)<#public method#>();
 //- (CGFloat)<#public method#>();
