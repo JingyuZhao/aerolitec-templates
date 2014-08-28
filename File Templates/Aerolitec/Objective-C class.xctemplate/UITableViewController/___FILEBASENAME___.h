@@ -18,9 +18,9 @@ ___IMPORTHEADER_cocoaTouchSubclass___
 
 // Public methods
 
-// - (void)<#public method#>();
-// - (NSInteger)<#public method#>();
-// - (CGFloat)<#public method#>();
-// - (NSString *)<#public method#>();
+//- (void)<#public method#>();
+//- (NSInteger)<#public method#>();
+//- (CGFloat)<#public method#>();
+//- (NSString *)<#public method#>();
 
 @end

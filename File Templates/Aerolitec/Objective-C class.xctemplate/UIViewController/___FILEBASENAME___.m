@@ -14,36 +14,36 @@
 
 #pragma mark -> Class Extension
 @interface ___FILEBASENAMEASIDENTIFIER___ () {
-// Member variables
+//Member variables
 //<#type#> *<#member name#>;
 //<#type#> *<#member name#>;
 //<#type#> *<#member name#>;
 }
 
-// Private properties
+//Private properties
 
 //@property (nonatomic,strong) <#type#> *<#private property#>;
 //@property (nonatomic,strong) <#type#> *<#private property#>;
 //@property (nonatomic,strong) <#type#> *<#private property#>;
 
-// Private methods
+//Private methods
 
-// - (void)<#private method#>();
-// - (NSInteger)<#private method#>();
-// - (CGFloat)<#private method#>();
-// - (NSString *)<#private method#>();
+//- (void)<#private method#>();
+//- (NSInteger)<#private method#>();
+//- (CGFloat)<#private method#>();
+//- (NSString *)<#private method#>();
 
-// Interface Builder properties
+//Interface Builder properties
 
-// @property (weak, nonatomic) IBOutlet <#type#> *<#IB property#>;
-// @property (weak, nonatomic) IBOutlet <#type#> *<#IB property#>;
-// @property (weak, nonatomic) IBOutlet <#type#> *<#IB property#>;
+//@property (weak, nonatomic) IBOutlet <#type#> *<#IB property#>;
+//@property (weak, nonatomic) IBOutlet <#type#> *<#IB property#>;
+//@property (weak, nonatomic) IBOutlet <#type#> *<#IB property#>;
 
-// Interface Builder actions
+//Interface Builder actions
 
-// - (IBAction)<#IB Action method#>:(id)sender;
-// - (IBAction)<#IB Action method#>:(id)sender;
-// - (IBAction)<#IB Action method#>:(id)sender;
+//- (IBAction)<#IB Action method#>:(id)sender;
+//- (IBAction)<#IB Action method#>:(id)sender;
+//- (IBAction)<#IB Action method#>:(id)sender;
 
 @end
 
@@ -53,11 +53,11 @@
 
 //#pragma mark -> Initialized class
 
-// + (void)initialize {
-//   if (self == [<#ClassName#> class]) {
-//     <#statements#>
-//   }
-// }
+//+ (void)initialize {
+//  if (self == [<#ClassName#> class]) {
+//    <#statements#>
+//  }
+//}
 
 //#pragma mark -> Private properties
 
@@ -65,25 +65,25 @@
 //@synthesize <#type#> *<#private property#>;
 //@synthesize <#type#> *<#private property#>;
 
-// #pragma mark -> Private methods
+//#pragma mark -> Private methods
 
-// - (void)<#private method#>() {
-// }
+//- (void)<#private method#>() {
+//}
 
-// - (NSInteger)<#private method#>() {
-//   NSInteger lRet = 0;
-//   return lRet;
-// }
+//- (NSInteger)<#private method#>() {
+//  NSInteger lRet = 0;
+//  return lRet;
+//}
 
-// - (CGFloat)<#private method#>() {
-//   CGFloat lRet = 0;
-//   return lRet;
-// }
+//- (CGFloat)<#private method#>() {
+//  CGFloat lRet = 0;
+//  return lRet;
+//}
 
-// - (NSString *)<#private method#>() {
-//   NSString * lRet = nil;
-//   return lRet;
-// }
+//- (NSString *)<#private method#>() {
+//  NSString * lRet = nil;
+//  return lRet;
+//}
 
 #pragma mark -> Init/Deallocate methods
 
@@ -109,29 +109,32 @@
 	// Dispose of any resources that can be recreated.
 }
 
-// #pragma mark -> Public properties
+//#pragma mark -> Public properties
 
 //@synthesize <#type#> *<#public property#>;
 //@synthesize <#type#> *<#public property#>;
 //@synthesize <#type#> *<#public property#>;
 
-// #pragma mark -> Public class methods
+//#pragma mark -> Public class methods
 
-// #pragma mark -> Public methods
+//#pragma mark -> Public methods
 
-// #pragma mark -> Navigation
+//#pragma mark -> Navigation
 
-// // In a storyboard-based application, you will often want to do a little preparation before navigation
-// - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-// {
-// // Get the new view controller using [segue destinationViewController].
-// // Pass the selected object to the new view controller.
-// }
+//- (void)prepareForSegue:(UIStoryboardSegue *)pSegue sender:(id)pSender {
+//  if ([pSegue.identifier isEqualToString:@"segue<#custom segue name#>"]) {
+//    <#class#>ViewController *l<#class#>ViewController = [pSegue destinationViewController];
+//    l<#class#>ListViewController.<#public property#> = <#value#>;
+//  } else if ([pSegue.identifier isEqualToString:@"segue<#custom segue name#>"])   {
+//    <#class#>ViewController *l<#class#>ViewController = [pSegue destinationViewController];
+//    l<#class#>ListViewController.<#public property#> = <#value#>;
+//  }
+//}
 
-// #pragma mark -> Actions Implementation
+//#pragma mark -> Actions Implementation
 
-// - (IBAction)clickOn<#action#>:(id)pSender {
-// }
+//- (IBAction)clickOn<#action#>:(id)pSender {
+//}
 
 //#pragma mark -> Protocol <#protocol name#>
 
