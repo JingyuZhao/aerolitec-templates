@@ -140,10 +140,10 @@
 //- (void)prepareForSegue:(UIStoryboardSegue *)pSegue sender:(id)pSender {
 //  if ([pSegue.identifier isEqualToString:@"segue<#custom segue name#>"]) {
 //    <#class#>ViewController *l<#class#>ViewController = [pSegue destinationViewController];
-//    l<#class#>ListViewController.<#public property#> = <#value#>;
+//    l<#class#>ViewController.<#public property#> = <#value#>;
 //  } else if ([pSegue.identifier isEqualToString:@"segue<#custom segue name#>"])   {
 //    <#class#>ViewController *l<#class#>ViewController = [pSegue destinationViewController];
-//    l<#class#>ListViewController.<#public property#> = <#value#>;
+//    l<#class#>ViewController.<#public property#> = <#value#>;
 //  }
 //}
 
