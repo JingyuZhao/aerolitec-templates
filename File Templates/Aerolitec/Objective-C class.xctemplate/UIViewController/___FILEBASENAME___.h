@@ -13,8 +13,7 @@ ___IMPORTHEADER_cocoaTouchSubclass___
 // Public properties
 
 //@property (nonatomic,strong) <#type#> *<#public property#>;
-//@property (nonatomic,strong) <#type#> *<#public property#>;
-//@property (nonatomic,strong) <#type#> *<#public property#>;
+//@property (nonatomic,assign) <#type#>  <#public property#>;
 
 // Public methods
 
