@@ -8,6 +8,19 @@
 
 #import "___FILEBASENAME___.h"
 
+//#pragma mark -
+//#pragma mark <#custom cell name#>Cell
+//#pragma mark -
+//
+//@interface <#custom cell name#>Cell : UITableViewCell
+//@property (weak, nonatomic) IBOutlet <#type#>    *<#name#>;
+//@property (weak, nonatomic) IBOutlet <#type#>    *<#name#>;
+//@property (weak, nonatomic) IBOutlet <#type#>    *<#name#>;
+//@end
+//
+//@implementation <#custom cell name#>Cell
+//@end
+
 #pragma mark -
 #pragma mark ___FILEBASENAMEASIDENTIFIER___
 #pragma mark -
