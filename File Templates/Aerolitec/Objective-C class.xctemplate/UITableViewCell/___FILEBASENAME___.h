@@ -8,6 +8,12 @@
 
 ___IMPORTHEADER_cocoaTouchSubclass___
 
-@interface ___FILEBASENAMEASIDENTIFIER___ : ___VARIABLE_cocoaTouchSubclass___
+#pragma mark -
+#pragma mark ___FILEBASENAMEASIDENTIFIER___
+#pragma mark -
 
+@interface ___FILEBASENAMEASIDENTIFIER___ : ___VARIABLE_cocoaTouchSubclass___
+//@property (weak, nonatomic) IBOutlet <#type#>    *<#name#>;
+//@property (weak, nonatomic) IBOutlet <#type#>    *<#name#>;
+//@property (weak, nonatomic) IBOutlet <#type#>    *<#name#>;
 @end
