@@ -3,6 +3,7 @@
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
+//  Base on Aerolitec Template
 //___COPYRIGHT___
 //
 
@@ -12,8 +13,7 @@
 #pragma mark ___FILEBASENAMEASIDENTIFIER___
 #pragma mark -
 
-
-@interface ___FILEBASENAMEASIDENTIFIER___ () <<#protocol name#>Delegate, <#protocol name#>Delegate, <#protocol name#>Delegate > {
+@interface ___FILEBASENAMEASIDENTIFIER___ () { // <<#protocol name#>Delegate, <#protocol name#>Delegate, <#protocol name#>Delegate> {
 	//#pragma mark -> Member variables for private properties
 	//<#type#> *<#member name#>;
 	//<#type#>  <#member name#>;
@@ -56,7 +56,7 @@
 //#pragma mark -> Initialized class
 
 //+ (void)initialize {
-//  if (self == [<#ClassName#> class]) {
+//  if (self == [<#class name#> class]) {
 //    <#statements#>
 //  }
 //}
@@ -90,7 +90,7 @@
 - (instancetype)init {
 	self = [super init];
 	if (self) {
-		<#statements #>
+		//<#statements#>
 	}
 	return self;
 }

@@ -1,8 +1,9 @@
 //
-//  ___FILENAME___
-//  ___PROJECTNAME___
+// ___FILENAME___
+// ___PROJECTNAME___
 //
-//  Created by ___FULLUSERNAME___ on ___DATE___.
+// Created by ___FULLUSERNAME___ on ___DATE___.
+// Base on Aerolitec Template
 //___COPYRIGHT___
 //
 
@@ -13,7 +14,7 @@
 #pragma mark -
 
 #pragma mark -> Class Extension
-@interface ___FILEBASENAMEASIDENTIFIER___ () <<#protocol name#>Delegate,<#protocol name#>Delegate,<#protocol name#>Delegate> {
+@interface ___FILEBASENAMEASIDENTIFIER___ () { // <<#protocol name#>Delegate,<#protocol name#>Delegate,<#protocol name#>Delegate> {
 //#pragma mark -> Member variables for private properties
 //<#type#> *<#member name#>;
 //<#type#>  <#member name#>;

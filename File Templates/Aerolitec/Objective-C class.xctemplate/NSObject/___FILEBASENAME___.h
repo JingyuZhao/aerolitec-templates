@@ -3,10 +3,15 @@
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
+//  Base on Aerolitec Template
 //___COPYRIGHT___
 //
 
 ___IMPORTHEADER_cocoaTouchSubclass___
+
+#pragma mark -
+#pragma mark ___FILEBASENAMEASIDENTIFIER___
+#pragma mark -
 
 @interface ___FILEBASENAMEASIDENTIFIER___ : ___VARIABLE_cocoaTouchSubclass___
 
