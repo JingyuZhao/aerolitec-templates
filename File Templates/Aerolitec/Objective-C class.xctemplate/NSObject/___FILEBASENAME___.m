@@ -29,6 +29,13 @@
 //@property (nonatomic,strong) <#type#> *<#private property#>;
 //@property (nonatomic,assign) <#type#>  <#private property#>;
 
+//#pragma mark -> Private class methods
+//
+//+ (void)<#private class method#>();
+//+ (NSInteger)<#private class method#>();
+//+ (CGFloat)<#private class method#>();
+//+ (NSString *)<#private class method#>();
+
 //#pragma mark -> Private methods
 //
 //- (void)<#private method#>();
@@ -62,6 +69,46 @@
 //  }
 //}
 
+//#pragma mark -> Private class methods
+
+//+ (void)<#private class method#>() {
+//}
+
+//+ (NSInteger)<#private class method#>() {
+//  NSInteger lRet = 0;
+//  return lRet;
+//}
+
+//+ (CGFloat)<#private class method#>() {
+//  CGFloat lRet = 0;
+//  return lRet;
+//}
+
+//+ (NSString *)<#private class method#>() {
+//  NSString * lRet = nil;
+//  return lRet;
+//}
+
+//#pragma mark -> Public class methods
+
+//+ (void)<#public class method#>() {
+//}
+
+//+ (NSInteger)<#public class method#>() {
+//  NSInteger lRet = 0;
+//  return lRet;
+//}
+
+//+ (CGFloat)<#public class method#>() {
+//  CGFloat lRet = 0;
+//  return lRet;
+//}
+
+//+ (NSString *)<#public class method#>() {
+//  NSString * lRet = nil;
+//  return lRet;
+//}
+
 //#pragma mark -> Private methods
 
 //- (void)<#private method#>() {
@@ -82,9 +129,25 @@
 //  return lRet;
 //}
 
-//#pragma mark -> Public class methods
-
 //#pragma mark -> Public methods
+
+//- (void)<#public method#>() {
+//}
+
+//- (NSInteger)<#public method#>() {
+//  NSInteger lRet = 0;
+//  return lRet;
+//}
+
+//- (CGFloat)<#public method#>() {
+//  CGFloat lRet = 0;
+//  return lRet;
+//}
+
+//- (NSString *)<#public method#>() {
+//  NSString * lRet = nil;
+//  return lRet;
+//}
 
 #pragma mark -> Init/Deallocate methods
 

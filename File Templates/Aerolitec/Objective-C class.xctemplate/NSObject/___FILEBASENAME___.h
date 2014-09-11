@@ -20,6 +20,13 @@ ___IMPORTHEADER_cocoaTouchSubclass___
 //@property (nonatomic,strong) <#type#> *<#public property#>;
 //@property (nonatomic,assign) <#type#>  <#public property#>;
 
+//#pragma mark -> Public class methods
+//
+//+ (void)<#public class method#>();
+//+ (NSInteger)<#public class method#>();
+//+ (CGFloat)<#public class method#>();
+//+ (NSString *)<#public class method#>();
+
 //#pragma mark -> Public methods
 //
 //- (void)<#public method#>();
