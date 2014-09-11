@@ -69,15 +69,15 @@
 
 //#pragma mark -> Private properties
 
-//@synthesize <#type#> *<#private property#>;
-//@synthesize <#type#> *<#private property#>;
-//@synthesize <#type#> *<#private property#>;
+//@synthesize <#private property#>;
+//@synthesize <#private property#>;
+//@synthesize <#private property#>;
 
 //#pragma mark -> Public properties
 
-//@synthesize <#type#> *<#public property#>;
-//@synthesize <#type#> *<#public property#>;
-//@synthesize <#type#> *<#public property#>;
+//@synthesize <#public property#>;
+//@synthesize <#public property#>;
+//@synthesize <#public property#>;
 
 //#pragma mark -> Initialized class
 
