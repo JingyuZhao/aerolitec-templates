@@ -13,6 +13,7 @@
 #pragma mark ___FILEBASENAMEASIDENTIFIER___
 #pragma mark -
 
+#pragma mark -> Class Extension
 @interface ___FILEBASENAMEASIDENTIFIER___ () { // <<#protocol name#>Delegate, <#protocol name#>Delegate, <#protocol name#>Delegate> {
 	//#pragma mark -> Member variables for private properties
 	//<#type#> *<#member name#>;
