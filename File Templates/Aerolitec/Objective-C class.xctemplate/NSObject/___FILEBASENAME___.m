@@ -109,6 +109,16 @@
 //  return lRet;
 //}
 
+#pragma mark -> Init/Deallocate methods
+
+- (instancetype)init {
+	self = [super init];
+	if (self) {
+		//<#statements#>
+	}
+	return self;
+}
+
 //#pragma mark -> Private methods
 
 //- (void)<#private method#>() {
@@ -148,16 +158,6 @@
 //  NSString * lRet = nil;
 //  return lRet;
 //}
-
-#pragma mark -> Init/Deallocate methods
-
-- (instancetype)init {
-	self = [super init];
-	if (self) {
-		//<#statements#>
-	}
-	return self;
-}
 
 //#pragma mark -> Class override <#class name#>
 

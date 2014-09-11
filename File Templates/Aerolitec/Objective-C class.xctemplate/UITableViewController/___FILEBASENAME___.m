@@ -134,6 +134,16 @@
 //  return lRet;
 //}
 
+#pragma mark -> Init/deallocate methods
+
+- (id)initWithStyle:(UITableViewStyle)style {
+  self = [super initWithStyle:style];
+  if (self) {
+    //Custom initialization
+  }
+  return self;
+}
+
 //#pragma mark -> Private methods
 
 //- (void)<#private method#>() {
@@ -173,16 +183,6 @@
 //  NSString * lRet = nil;
 //  return lRet;
 //}
-
-#pragma mark -> Init/deallocate methods
-
-- (id)initWithStyle:(UITableViewStyle)style {
-  self = [super initWithStyle:style];
-  if (self) {
-    //Custom initialization
-  }
-  return self;
-}
 
 //#pragma mark -> Class override <#class name#>
 

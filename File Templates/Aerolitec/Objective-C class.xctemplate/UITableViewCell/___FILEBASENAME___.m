@@ -121,6 +121,16 @@
 //  return lRet;
 //}
 
+#pragma mark -> Init/deallocate methods
+
+- (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
+	self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
+	if (self) {
+		// Initialization code
+	}
+	return self;
+}
+
 //#pragma mark -> Private methods
 
 //- (void)<#private method#>() {
@@ -160,16 +170,6 @@
 //  NSString * lRet = nil;
 //  return lRet;
 //}
-
-#pragma mark -> Init/deallocate methods
-
-- (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
-	self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
-	if (self) {
-		// Initialization code
-	}
-	return self;
-}
 
 //#pragma mark -> Class override <#class name#>
 
