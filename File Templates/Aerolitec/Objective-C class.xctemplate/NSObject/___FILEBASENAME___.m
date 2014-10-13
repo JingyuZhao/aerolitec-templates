@@ -2,8 +2,8 @@
 // ___FILENAME___
 // ___PROJECTNAME___
 //
-// Created by ___FULLUSERNAME___ on ___DATE___.
-// Base on Aerolitec Template
+//  Created by ___FULLUSERNAME___ on ___DATE___.
+//  Base on Aerolitec Template
 //___COPYRIGHT___
 //
 
@@ -42,6 +42,10 @@
 //- (NSInteger)<#private method#>();
 //- (CGFloat)<#private method#>();
 //- (NSString *)<#private method#>();
+
+//#pragma mark -> Notification methods
+//
+//- (void)notification<#notification name#>:(NSNotification *)pNotification;
 
 @end
 
@@ -160,6 +164,14 @@
 //}
 
 //#pragma mark -> Class override <#class name#>
+
+//#pragma mark -> Notifications
+
+//- (void)notification<#notification name#>:(NSNotification *)pNotification {
+//  if ([pNotification.object isKindOfClass:[<#class#> class]]) {
+//    // <#notification code#>  
+//  }
+//}
 
 //#pragma mark -> Protocol <#protocol name#>
 
