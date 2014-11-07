@@ -1,6 +1,6 @@
 //
-// ___FILENAME___
-// ___PROJECTNAME___
+//  ___FILENAME___
+//  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
 //  Base on Aerolitec Template
@@ -35,6 +35,10 @@
 //+ (NSInteger)<#private class method#>();
 //+ (CGFloat)<#private class method#>();
 //+ (NSString *)<#private class method#>();
+
+//#pragma mark -> Private Init methods
+//
+//- (instancetype)initWith<#param#>:(<#type#>)p<#param#>;
 
 //#pragma mark -> Private methods
 //
@@ -113,15 +117,33 @@
 //  return lRet;
 //}
 
-#pragma mark -> Init/Deallocate methods
+//#pragma mark -> Private Init/Deallocate methods
 
-- (instancetype)init {
-	self = [super init];
-	if (self) {
-		//<#statements#>
-	}
-	return self;
-}
+//- (instancetype)init {
+//	self = [super init];
+//	if (self) {
+//		//<#statements#>
+//	}
+//	return self;
+//}
+
+//- (instancetype)initWith<#param#>:(<#type#>)p<#param#> {
+//	self = [super init];
+//	if (self) {
+//		//<#statements#>
+//	}
+//	return self;
+//}
+
+//#pragma mark -> Public Init/Deallocate methods
+
+//- (instancetype)initWith<#param#>:(<#type#>)p<#param#> {
+//	self = [super init];
+//	if (self) {
+//		//<#statements#>
+//	}
+//	return self;
+//}
 
 //#pragma mark -> Private methods
 

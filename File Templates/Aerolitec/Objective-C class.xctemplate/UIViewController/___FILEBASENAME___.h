@@ -1,6 +1,6 @@
 //
-// ___FILENAME___
-// ___PROJECTNAME___
+//  ___FILENAME___
+//  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
 //  Base on Aerolitec Template
@@ -22,6 +22,10 @@ ___IMPORTHEADER_cocoaTouchSubclass___
 //+ (NSInteger)<#public class method#>();
 //+ (CGFloat)<#public class method#>();
 //+ (NSString *)<#public class method#>();
+
+//#pragma mark -> Public Init methods
+//
+//- (instancetype)initWith<#param#>:(<#type#>)p<#param#>;
 
 //#pragma mark -> Public methods
 //
