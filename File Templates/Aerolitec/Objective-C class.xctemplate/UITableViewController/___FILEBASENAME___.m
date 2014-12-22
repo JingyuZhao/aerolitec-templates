@@ -12,11 +12,14 @@
 //#pragma mark -
 //#pragma mark <#custom cell name#>Cell
 //#pragma mark -
-//
+
 //@interface <#custom cell name#>Cell : UITableViewCell
+
 //@property (weak, nonatomic) IBOutlet <#type#>    *<#name#>;
 //@property (weak, nonatomic) IBOutlet <#type#>    *<#name#>;
 //@property (weak, nonatomic) IBOutlet <#type#>    *<#name#>;
+
+//#pragma mark -> Public class methods (optional)
 
 //#pragma mark -> Public Init  (optional)
 
@@ -25,6 +28,10 @@
 //@end
 
 //@implementation <#custom cell name#>Cell
+
+//#pragma mark -> Private class methods (optional)
+
+//#pragma mark -> Public class methods (optional)
 
 //#pragma mark -> Private Deallocate method (optional)
 
@@ -299,9 +306,13 @@
 
 //#pragma mark -> Notifications
 
-//- (void)notification<#notification name#>:(NSNotification *)pNotification {
-//  if ([pNotification.object isKindOfClass:[<#class#> class]]) {
-//    // <#notification code#>  
+//- (void)prepareForSegue:(UIStoryboardSegue *)pSegue sender:(id)pSender {
+//  if ([pSegue.identifier isEqualToString:@"segue<#custom segue name#>"]) {
+//    <#class#>ViewController *l<#class#>ViewController = [pSegue destinationViewController];
+//    l<#class#>ViewController.<#public property#> = <#value#>;
+//  } else if ([pSegue.identifier isEqualToString:@"segue<#custom segue name#>"])   {
+//    <#class#>ViewController *l<#class#>ViewController = [pSegue destinationViewController];
+//    l<#class#>ViewController.<#public property#> = <#value#>;
 //  }
 //}
 

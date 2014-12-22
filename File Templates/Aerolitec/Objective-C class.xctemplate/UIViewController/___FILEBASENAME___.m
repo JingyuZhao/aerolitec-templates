@@ -12,11 +12,14 @@
 //#pragma mark -
 //#pragma mark <#custom cell name#>Cell
 //#pragma mark -
-//
+
 //@interface <#custom cell name#>Cell : UITableViewCell
+
 //@property (weak, nonatomic) IBOutlet <#type#>    *<#name#>;
 //@property (weak, nonatomic) IBOutlet <#type#>    *<#name#>;
 //@property (weak, nonatomic) IBOutlet <#type#>    *<#name#>;
+
+//#pragma mark -> Public class methods (optional)
 
 //#pragma mark -> Public Init  (optional)
 
@@ -26,7 +29,16 @@
 
 //@implementation <#custom cell name#>Cell
 
+//#pragma mark -> Private class methods (optional)
+
+//#pragma mark -> Public class methods (optional)
+
 //#pragma mark -> Private Deallocate method (optional)
+
+//- (void)dealloc {
+//  self.<#property#> = nil;
+//  self.<#property#> = nil;
+//}
 
 //#pragma mark -> Public Init methods (optional)
 

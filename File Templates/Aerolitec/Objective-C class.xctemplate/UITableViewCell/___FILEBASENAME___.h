@@ -19,6 +19,8 @@ ___IMPORTHEADER_cocoaTouchSubclass___
 //@property (weak, nonatomic) IBOutlet <#type#>    *<#name#>;
 //@property (weak, nonatomic) IBOutlet <#type#>    *<#name#>;
 
+//#pragma mark -> Public class methods (optional)
+
 //#pragma mark -> Public Init methods (optional)
 
 //#pragma mark -> Public methods (optional)

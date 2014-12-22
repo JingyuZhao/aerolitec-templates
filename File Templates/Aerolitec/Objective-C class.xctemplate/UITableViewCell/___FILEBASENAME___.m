@@ -13,7 +13,25 @@
 #pragma mark ___FILEBASENAMEASIDENTIFIER___
 #pragma mark -
 
+@interface ___FILEBASENAMEASIDENTIFIER___ : UITableViewCell
+
+//@property (weak, nonatomic) IBOutlet <#type#>    *<#name#>;
+//@property (weak, nonatomic) IBOutlet <#type#>    *<#name#>;
+//@property (weak, nonatomic) IBOutlet <#type#>    *<#name#>;
+
+//#pragma mark -> Public class methods (optional)
+
+//#pragma mark -> Public Init  (optional)
+
+//#pragma mark -> Public methods (optional)
+
+@end
+
 @implementation ___FILEBASENAMEASIDENTIFIER___
+
+//#pragma mark -> Private class methods (optional)
+
+//#pragma mark -> Public class methods (optional)
 
 //#pragma mark -> Private Dealloc method (optional)
 
