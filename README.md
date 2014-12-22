@@ -1,7 +1,7 @@
 ## Organization sources
 
 ### Classes used as struct
-#### Fichier .h
+#### File .h
 ```objective-c
 //
 //  <#class as struct#>.h
@@ -30,7 +30,7 @@
 @end
 ```
 
-#### Fichier .m 
+#### File .m 
 ```objective-c
 //
 //  <#class name#>.m
@@ -57,7 +57,7 @@
 ```
 
 ### Class inherited from UIViewController
-#### Fichier .h
+#### File .h
 ```objective-c
 //
 //  <#class name#>.h
@@ -84,7 +84,7 @@
 
 @end
 ```
-#### Fichier .m 
+#### File .m 
 ```objective-c
 //
 //  <#class name#>.m
