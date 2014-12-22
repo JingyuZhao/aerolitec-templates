@@ -14,7 +14,15 @@ ___IMPORTHEADER_cocoaTouchSubclass___
 #pragma mark -
 
 @interface ___FILEBASENAMEASIDENTIFIER___ : ___VARIABLE_cocoaTouchSubclass___
+
+//#pragma mark -> Public properties
+
 //@property (weak, nonatomic) IBOutlet <#type#>    *<#name#>;
 //@property (weak, nonatomic) IBOutlet <#type#>    *<#name#>;
 //@property (weak, nonatomic) IBOutlet <#type#>    *<#name#>;
+
+//#pragma mark -> Public Init/Deallocate methods (optional)
+
+//#pragma mark -> Public methods (optional)
+
 @end
