@@ -17,6 +17,11 @@
 
 //#pragma mark -> Private Dealloc method (optional)
 
+//- (void)dealloc {
+//  self.<#property#> = nil;
+//  self.<#property#> = nil;
+//}
+
 //#pragma mark -> Public Init methods (optional)
 
 //- (instancetype)initWith<#param#>:(<#type#>)p<#param#> {

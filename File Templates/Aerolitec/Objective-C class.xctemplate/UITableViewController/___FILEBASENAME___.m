@@ -28,6 +28,11 @@
 
 //#pragma mark -> Private Deallocate method (optional)
 
+//- (void)dealloc {
+//  self.<#property#> = nil;
+//  self.<#property#> = nil;
+//}
+
 //#pragma mark -> Public Init methods (optional)
 
 //- (instancetype)initWith<#param#>:(<#type#>)p<#param#> {
@@ -94,9 +99,10 @@
 //+ (CGFloat)<#private class method#>();
 //+ (NSString *)<#private class method#>();
 
-//#pragma mark -> Private Init methods
+//#pragma mark -> Private Init/Dealloc methods
 //
 //- (instancetype)initWith<#param#>:(<#type#>)p<#param#>;
+//- (void)dealloc;
 
 //#pragma mark -> Private methods
 //
@@ -195,6 +201,11 @@
 //		//<#statements#>
 //	}
 //	return self;
+//}
+
+//- (void)dealloc {
+//  self.<#property#> = nil;
+//  self.<#property#> = nil;
 //}
 
 //#pragma mark -> Public Init methods

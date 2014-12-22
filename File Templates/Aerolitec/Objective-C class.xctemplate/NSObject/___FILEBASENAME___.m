@@ -36,9 +36,10 @@
 //+ (CGFloat)<#private class method#>();
 //+ (NSString *)<#private class method#>();
 
-//#pragma mark -> Private Init methods
+//#pragma mark -> Private Init/Dealloc methods
 //
 //- (instancetype)initWith<#param#>:(<#type#>)p<#param#>;
+//- (void)dealloc;
 
 //#pragma mark -> Private methods
 //
@@ -135,7 +136,12 @@
 //	return self;
 //}
 
-//#pragma mark -> Public Init/Deallocate methods
+//- (void)dealloc {
+//  self.<#property#> = nil;
+//  self.<#property#> = nil;
+//}
+
+//#pragma mark -> Public Init methods
 
 //- (instancetype)initWith<#param#>:(<#type#>)p<#param#> {
 //	self = [super init];
