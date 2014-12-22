@@ -17,9 +17,54 @@
 //@property (weak, nonatomic) IBOutlet <#type#>    *<#name#>;
 //@property (weak, nonatomic) IBOutlet <#type#>    *<#name#>;
 //@property (weak, nonatomic) IBOutlet <#type#>    *<#name#>;
+
+//#pragma mark -> Public Init  (optional)
+
+//#pragma mark -> Public methods (optional)
+
 //@end
-//
+
 //@implementation <#custom cell name#>Cell
+
+//#pragma mark -> Private Deallocate method (optional)
+
+//#pragma mark -> Public Init methods (optional)
+
+//- (instancetype)initWith<#param#>:(<#type#>)p<#param#> {
+//	self = [super init];
+//	if (self) {
+//		//<#statements#>
+//	}
+//	return self;
+//}
+
+//- (id)initWithStyle:(UITableViewCellStyle)pStyle reuseIdentifier:(NSString *)pReuseIdentifier {
+//	self = [super initWithStyle:pStyle reuseIdentifier:pReuseIdentifier];
+//	if (self) {
+//		//<#statements#>
+//	}
+//	return self;
+//}
+
+//#pragma mark -> Public methods (optional)
+
+//- (void)<#public method#>() {
+//}
+
+//- (NSInteger)<#public method#>() {
+//  NSInteger lRet = 0;
+//  return lRet;
+//}
+
+//- (CGFloat)<#public method#>() {
+//  CGFloat lRet = 0;
+//  return lRet;
+//}
+
+//- (NSString *)<#public method#>() {
+//  NSString * lRet = nil;
+//  return lRet;
+//}
 //@end
 
 #pragma mark -
@@ -152,7 +197,7 @@
 //	return self;
 //}
 
-//#pragma mark -> Public Init/Deallocate methods
+//#pragma mark -> Public Init methods
 
 //- (instancetype)initWith<#param#>:(<#type#>)p<#param#> {
 //	self = [super init];

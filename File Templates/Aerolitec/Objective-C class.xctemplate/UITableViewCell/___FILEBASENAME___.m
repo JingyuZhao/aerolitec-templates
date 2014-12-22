@@ -15,7 +15,7 @@
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
-//#pragma mark -> Public Init/Deallocate methods
+//#pragma mark -> Public Init methods (optional)
 
 //- (instancetype)initWith<#param#>:(<#type#>)p<#param#> {
 //	self = [super init];
@@ -33,7 +33,9 @@
 //	return self;
 //}
 
-//#pragma mark -> Public methods
+//#pragma mark -> Private Dealloc method (optional)
+
+//#pragma mark -> Public methods (optional)
 
 //- (void)<#public method#>() {
 //}
