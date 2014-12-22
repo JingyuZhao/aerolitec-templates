@@ -15,6 +15,8 @@
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
+//#pragma mark -> Private Dealloc method (optional)
+
 //#pragma mark -> Public Init methods (optional)
 
 //- (instancetype)initWith<#param#>:(<#type#>)p<#param#> {
@@ -32,8 +34,6 @@
 //	}
 //	return self;
 //}
-
-//#pragma mark -> Private Dealloc method (optional)
 
 //#pragma mark -> Public methods (optional)
 
