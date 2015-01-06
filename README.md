@@ -41,6 +41,10 @@
 //  Copyright (c) 2014 Aerolitec. All rights reserved.
 //
 
+#pragma mark -
+#pragma mark <#class as struct#>
+#pragma mark -
+
 @implementation <#class as struct#>
 
 //#pragma mark -> Private class methods (optional)
