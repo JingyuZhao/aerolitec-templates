@@ -2,19 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>AllowedTypes</key>
-	<array>
-		<string>public.objective-c-source</string>
-		<string>public.objective-c-plus-plus-source</string>
-	</array>
 	<key>DefaultCompletionName</key>
 	<string>MyClass</string>
 	<key>Description</key>
-	<string>An Objective-C class, with implementation and header files.</string>
+	<string>Swift Aerolitec Templates</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
-	<key>MainTemplateFile</key>
-	<string>___FILEBASENAME___.m</string>
 	<key>Options</key>
 	<array>
 		<dict>
@@ -23,7 +16,7 @@
 			<key>Identifier</key>
 			<string>productName</string>
 			<key>Name</key>
-			<string>Class</string>
+			<string>Class:</string>
 			<key>NotPersisted</key>
 			<true/>
 			<key>Required</key>
@@ -41,26 +34,23 @@
 			<key>Identifier</key>
 			<string>cocoaTouchSubclass</string>
 			<key>Name</key>
-			<string>Subclass of</string>
+			<string>Subclass of:</string>
 			<key>Required</key>
 			<string>YES</string>
 			<key>Suffixes</key>
 			<dict>
-				<key>JSONModel</key>
-				<string>Model</string>
-				<key>UITableViewCell</key>
-				<string>TableViewCell</string>
-				<key>UITableViewController</key>
-				<string>TableViewController</string>
 				<key>UIViewController</key>
 				<string>ViewController</string>
+				<key>UITableViewController</key>
+				<string>TableViewController</string>
+				<key>UICollectionViewController</key>
+				<string>CollectionViewController</string>
 			</dict>
 			<key>Type</key>
 			<string>class</string>
 			<key>Values</key>
 			<array>
 				<string>NSObject</string>
-				<string>JSONModel</string>
 				<string>UIView</string>
 				<string>UIViewController</string>
 				<string>UITableViewController</string>
@@ -85,6 +75,9 @@
 					<string>UIViewController</string>
 					<string>UITableViewController</string>
 					<string>UITableViewCell</string>
+					<string>UICollectionViewController</string>
+					<string>UICollectionViewCell</string>
+					<string>UICollectionReusableView</string>
 				</array>
 			</dict>
 			<key>Type</key>
@@ -109,7 +102,7 @@
 				<array>
 					<string>UIViewController</string>
 					<string>UITableViewController</string>
-					<string>UITableViewCell</string>
+					<string>UICollectionViewController</string>
 				</array>
 			</dict>
 			<key>Type</key>
@@ -120,14 +113,52 @@
 				<string>iPad</string>
 			</array>
 		</dict>
+		<dict>
+			<key>AllowedTypes</key>
+			<dict>
+				<key>Objective-C</key>
+				<array>
+					<string>public.objective-c-source</string>
+					<string>public.objective-c-plus-plus-source</string>
+				</array>
+				<key>Swift</key>
+				<array>
+					<string>public.swift-source</string>
+				</array>
+			</dict>
+			<key>Default</key>
+			<string>Swift</string>
+			<key>Description</key>
+			<string>The implementation language</string>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>MainTemplateFiles</key>
+			<dict>
+				<key>Objective-C</key>
+				<string>___FILEBASENAME___.m</string>
+				<key>Swift</key>
+				<string>___FILEBASENAME___.swift</string>
+			</dict>
+			<key>Name</key>
+			<string>Language:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Values</key>
+			<array>
+				<string>Swift</string>
+				<string>Objective-C</string>
+			</array>
+		</dict>
 	</array>
 	<key>Platforms</key>
 	<array>
 		<string>com.apple.platform.iphoneos</string>
 	</array>
 	<key>SortOrder</key>
-	<string>1</string>
+	<string>8</string>
 	<key>Summary</key>
-	<string>An Objective-C class with a header for Cocoa Touch</string>
+	<string>Aerolitec CocaTouch</string>
 </dict>
 </plist>

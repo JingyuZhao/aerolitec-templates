@@ -298,13 +298,9 @@
 
 //#pragma mark -> Notifications
 
-//- (void)prepareForSegue:(UIStoryboardSegue *)pSegue sender:(id)pSender {
-//  if ([pSegue.identifier isEqualToString:@"segue<#custom segue name#>"]) {
-//    <#class#>ViewController *l<#class#>ViewController = [pSegue destinationViewController];
-//    l<#class#>ViewController.<#public property#> = <#value#>;
-//  } else if ([pSegue.identifier isEqualToString:@"segue<#custom segue name#>"])   {
-//    <#class#>ViewController *l<#class#>ViewController = [pSegue destinationViewController];
-//    l<#class#>ViewController.<#public property#> = <#value#>;
+//- (void)notification<#notification name#>:(NSNotification *)pNotification {
+//  if ([pNotification.object isKindOfClass:[<#class#> class]]) {
+//    // <#notification code#>
 //  }
 //}
 
