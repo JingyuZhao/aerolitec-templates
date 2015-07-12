@@ -108,6 +108,12 @@ internal class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
   
   // MARK: -> Notifications
   
+  //@objc internal func notification<#notification name#>(pNotification: NSNotification){
+  //  if pNotification.object is <#type#> {
+  //    // <#notification code#>
+  //  }
+  //}
+  
   // MARK: -> Class override ___VARIABLE_cocoaTouchSubclass___
   
   override internal func viewDidLoad() {
