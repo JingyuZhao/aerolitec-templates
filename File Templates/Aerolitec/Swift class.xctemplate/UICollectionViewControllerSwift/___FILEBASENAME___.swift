@@ -100,11 +100,11 @@ internal class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
   
   // MARK: -> Navigation
   
-  //override internal func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+  //override internal func prepareForSegue(pSegue: UIStoryboardSegue, sender pSender: AnyObject?) {
   //  if pSegue.identifier == "<#segue name#>" {
-  //    let l<#View Controller#>:<#View Controller#> = pSegue.destinationViewController
+  //    let l<#View Controller#> = pSegue.destinationViewController as! <#View Controller#>
   //  } else if pSegue.identifier == "<#segue name#>" {
-  //    let l<#View Controller#>:<#View Controller#> = pSegue.destinationViewController
+  //    let l<#View Controller#> = pSegue.destinationViewController as! <#View Controller#>
   //  }
   //}
   
@@ -151,9 +151,7 @@ internal class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
     var lRet:UICollectionViewCell! = nil
     
     if pIndexPath.row < self.items.count {
-      let lCell = pCollectionView.dequeueReusableCellWithReuseIdentifier("___FILEBASENAMEASIDENTIFIER___Cell", forIndexPath: pIndexPath) as? ___FILEBASENAMEASIDENTIFIER___Cell
-      
-      if lCell != nil {
+      if lCell = pCollectionView.dequeueReusableCellWithReuseIdentifier("___FILEBASENAMEASIDENTIFIER___Cell", forIndexPath: pIndexPath) as? ___FILEBASENAMEASIDENTIFIER___Cell {
         let lItem = self.items[pIndexPath.row]
         
         lRet = lCell

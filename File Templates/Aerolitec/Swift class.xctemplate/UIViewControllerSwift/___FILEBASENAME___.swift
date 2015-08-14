@@ -63,11 +63,11 @@ internal class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
   
   // MARK: -> Navigation
   
-  //override internal func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+  //override internal func prepareForSegue(pSegue: UIStoryboardSegue, sender pSender: AnyObject?) {
   //  if pSegue.identifier == "<#segue name#>" {
-  //    let l<#View Controller#>:<#View Controller#> = pSegue.destinationViewController
+  //    let l<#View Controller#> = pSegue.destinationViewController as! <#View Controller#>
   //  } else if pSegue.identifier == "<#segue name#>" {
-  //    let l<#View Controller#>:<#View Controller#> = pSegue.destinationViewController
+  //    let l<#View Controller#> = pSegue.destinationViewController as! <#View Controller#>
   //  }
   //}
   
