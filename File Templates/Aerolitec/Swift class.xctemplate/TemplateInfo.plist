@@ -29,8 +29,6 @@
 			<string>NSObject</string>
 			<key>Description</key>
 			<string>What class to subclass in the new file</string>
-			<key>FallbackHeader</key>
-			<string>#import &lt;UIKit/UIKit.h&gt;</string>
 			<key>Identifier</key>
 			<string>cocoaTouchSubclass</string>
 			<key>Name</key>
